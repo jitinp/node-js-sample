@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 8080))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello Instadeploy!.. testing from Jitin @ 21.59pm')
+  response.send('Hello Instadeploy!.. testing from Jitin @ 9.17am')
 })
 
 app.listen(app.get('port'), function() {
